@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="JSON/styles.css">
+</head>
+<body>
+    <div class="header">
+     <h1>Employee database system</h1>
+     <button class="button-18">Add employe</button>
+    </div>
+    <div class="employe">
+        <div class="employename">
+            <span class="employename__title"> employe list</span>
+            <div class="employename__list"></div>
+        </div>
+        <div class="employeinfo">
+            <span class="employeinfo__title">employe information</span>
+            <div class="employeinfo__info"></div>
+        </div>
+
+    </div>
+
+    <div class="addEmployee">
+        
+        <form class="addEmployee_create">
+            Add a new Employee
+            <div>
+              <input type="text" name="firstName" placeholder="First Name" required/>
+              <input type="text" name="lastName" placeholder="Last Name" required/>
+            </div>
+            <input type="text" name="imageUrl" placeholder="Image URL (Optional)" />
+            <input type="email" name="email" placeholder="Email" required/>
+            <input type="number" name="contactNumber" placeholder="Contact" required/>
+            <input type="number" name="salary" placeholder="Salary" required/>
+            <input type="text" name="address" placeholder="Address" required/>
+            <input type="date" name="dob" placeholder="Date of Birth" class="addEmployee_create--dob" required/>
+            <input type="submit" class="addEmployee_create--submit" value="Submit">
+          </form>    
+    </div>
+
+
+<script type="module" src="JSON/script.js"></script>  
+</body>
+</html>
